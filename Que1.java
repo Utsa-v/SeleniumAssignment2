@@ -32,7 +32,7 @@ public class Que1 {
 
 	@Test(priority=2)
 	public void enterDataInAlertPopUpTset() {
-		driver.findElement(By.id("name")).sendKeys("Deepak");
+		driver.findElement(By.id("name")).sendKeys("Utsav");
 		driver.findElement(By.id("alertbtn")).click();
 		Alert obj2 = driver.switchTo().alert();
 		System.out.println(obj2.getText());
